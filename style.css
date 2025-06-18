@@ -1,0 +1,94 @@
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Corpo */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+}
+
+/* Container principal */
+.container {
+    width: 80%;
+    margin: 0 auto;
+    max-width: 1200px;
+}
+
+/* Cabeçalho */
+header {
+    background-color: #4CAF50;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.header-img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin-top: 15px;
+}
+
+/* Introdução */
+.intro {
+    padding: 40px 0;
+    background-color: #fff;
+    text-align: center;
+}
+
+.intro h2 {
+    margin-bottom: 20px;
+    font-size: 2rem;
+}
+
+.intro p {
+    font-size: 1.1rem;
+    line-height: 1.8;
+    color: #333;
+}
+
+/* Comparação */
+.comparacao {
+    display: flex;
+    justify-content: space-between;
+    padding: 40px 0;
+    background-color: #fff;
+}
+
+.comparacao .column {
+    width: 48%;
+}
+
+.comparacao h3 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    color: #4CAF50;
+}
+
+.comparacao ul {
+    list-style: none;
+    padding: 0;
+}
+
+.comparacao li {
+    font-size: 1.1rem;
+    color: #555;
+    margin-bottom: 10px;
+}
+
+/* Rodapé */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+
+footer p {
+    font-size: 1rem;
+}
