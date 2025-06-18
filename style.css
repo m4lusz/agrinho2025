@@ -21,7 +21,7 @@ body {
 
 /* Cabeçalho */
 header {
-    background-color: #4CAF50;
+    background-color: #51a9ac;
     color: #fff;
     padding: 20px 0;
     text-align: center;
@@ -67,7 +67,7 @@ header {
 .comparacao h3 {
     font-size: 1.5rem;
     margin-bottom: 10px;
-    color: #4CAF50;
+    color: #1290a7;
 }
 
 .comparacao ul {
